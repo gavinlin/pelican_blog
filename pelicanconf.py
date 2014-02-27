@@ -14,6 +14,9 @@ TAGS_URL = 'tags.html'
 
 DEFAULT_LANG = u'en'
 
+DISQUS_SITENAME = 'lingavinsblog'
+GOOGLE_ANALYTICS = 'UA-38998659-1'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -24,8 +27,7 @@ LINKS = (('onelong', 'http://ways2u.com/'),
          ('zita', 'http://blog.csdn.net/ttxgz'),)
 
 # Social widget
-#SOCIAL = (('You can add links in your config file', '#'),
-#          ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/gavinlin'),)
 
 DEFAULT_PAGINATION = 10
 
