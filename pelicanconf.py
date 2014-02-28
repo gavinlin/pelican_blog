@@ -42,7 +42,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_BASE_PAGES = True
 
-STATIC_PATH = [u"images"]
+#STATIC_PATH = [u"images"]
 
 #sitemap
 SITEMAP = {
@@ -58,3 +58,8 @@ SITEMAP = {
         'pages': 'monthly'
     }
 }
+
+STATIC_PATHS = [
+    u'CNAME',
+    u'images',
+    ]
