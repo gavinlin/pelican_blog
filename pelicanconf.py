@@ -14,9 +14,6 @@ TAGS_URL = 'tags.html'
 
 DEFAULT_LANG = u'en'
 
-DISQUS_SITENAME = 'lingavinsblog'
-GOOGLE_ANALYTICS = 'UA-38998659-1'
-
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -37,12 +34,11 @@ THEME = "blueidea"
 PLUGIN_PATH = 'pelican-plugins'
 PLUGINS = ['latex', 'sitemap', 'multi_part']
 
+
 DISPLAY_CATEGORIES_ON_SUBMENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_BASE_PAGES = True
-
-#STATIC_PATH = [u"images"]
 
 #sitemap
 SITEMAP = {
