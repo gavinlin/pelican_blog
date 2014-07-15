@@ -1,0 +1,6 @@
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = https://github.com/getpelican/pelican-plugins.git
+[submodule "burrito"]
+	path = burrito
+	url = https://github.com/fly/burrito.git

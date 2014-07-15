@@ -30,15 +30,18 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-THEME = "blueidea"
+#THEME = "blueidea"
+THEME = "burrito"
 PLUGIN_PATH = 'pelican-plugins'
-PLUGINS = ['latex', 'sitemap', 'multi_part']
+PLUGINS = ['assets', 'latex', 'sitemap', 'multi_part']
 
 
 DISPLAY_CATEGORIES_ON_SUBMENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_BASE_PAGES = True
+
+WEBASSETS=True
 
 #sitemap
 SITEMAP = {
